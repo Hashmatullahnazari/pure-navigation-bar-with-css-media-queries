@@ -14,12 +14,13 @@ nav
   float: left;
   line-height: 70px;
   padding-left: 10%;
+  
 }
 
 
 nav ul 
 {
-  left
+ float: left;
   
 }
 
@@ -55,16 +56,20 @@ input[type="text"] {
     
   }
 
- nav ul input[type=text]
+ nav input[type=text]
   
   {
-
     
     float: none;
     
   }
-  
-  nav li 
+  nav ul 
+  {
+    margin: 0;
+    padding: 0;
+    float: none;
+  }
+  nav ul li 
   {
     width: 100%;
 
